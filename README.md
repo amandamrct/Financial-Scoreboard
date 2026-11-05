@@ -2,15 +2,6 @@
 
 Controle financeiro pessoal em apenas uma página: fixos do mês, recebimentos extras, gastos do dia a dia, saldo de cada banco e um placar do ano. Funciona no navegador do computador e do celular (dá para adicionar à tela inicial como um app), com modo claro e escuro.
 
-**[Abrir a demonstração](https://amandamrct.github.io/Financial-Scoreboard/)**
-
-<p>
-  <img src="docs/screenshots/celular-mes-escuro.png" width="240" alt="Fixos do mês no celular, modo escuro">
-  <img src="docs/screenshots/celular-variados-escuro.png" width="240" alt="Gastos variados no celular">
-  <img src="docs/screenshots/celular-contas-escuro.png" width="240" alt="Saldo por banco no celular">
-</p>
-
-<img src="docs/screenshots/desktop-mes-claro.png" alt="Visão do mês no computador, modo claro">
 
 ## Sobre o projeto
 
