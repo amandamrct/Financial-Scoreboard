@@ -16,7 +16,7 @@ Sem configurar nada, o Placar salva só no navegador em que foi aberto. Com este
 
 1. No menu: **Criação › Firestore Database › Criar banco de dados**.
 2. Local: **southamerica-east1 (São Paulo)**. Modo: **produção**.
-3. Na aba **Regras**, cole o conteúdo de [`firebase/firestore.rules`](../firebase/firestore.rules), troque o e-mail pelo seu e toque em **Publicar**.
+3. Na aba **Regras**, cole o conteúdo de [`firestore.rules`](firestore.rules), troque o e-mail pelo seu e toque em **Publicar**.
 
 ## 4. Colar as chaves no app
 
@@ -40,7 +40,7 @@ Essas chaves não são senha: ficam visíveis em qualquer site que usa Firebase.
 
 ## 5. Publicar
 
-**GitHub Pages:** no repositório, **Settings › Pages**, em "Branch" escolha `main` e a pasta `/ (root)` e salve. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/placar-financeiro/`.
+**GitHub Pages:** no repositório, **Settings › Pages**, em "Branch" escolha `main` e a pasta `/ (root)` e salve. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/Financial-Scoreboard/`.
 
 **Netlify (opcional, para domínio próprio):** arraste a pasta em **app.netlify.com/drop**. Depois, em **Domain management › Add a domain**, informe o seu domínio e crie no painel de DNS o registro **CNAME** que o Netlify indicar. Não altere os registros MX e TXT que já existem: são eles que fazem o e-mail funcionar.
 

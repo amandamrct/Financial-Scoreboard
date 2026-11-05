@@ -1,13 +1,22 @@
 # Placar Financeiro
 
-Controle financeiro pessoal em apenas uma página: fixos do mês, recebimentos extras, gastos do dia a dia, saldo de cada banco e um placar do ano. Funciona no navegador do computador e do celular (dá para adicionar à tela inicial como um app), com modo claro e escuro.
+Controle financeiro pessoal em uma página só: fixos do mês, recebimentos extras, gastos do dia a dia, saldo de cada banco e um placar do ano. Funciona no navegador do computador e do celular (dá para adicionar à tela inicial como um app), com modo claro e escuro.
 
+**[Abrir a demonstração](https://amandamrct.github.io/Financial-Scoreboard/)**
+
+<p>
+  <img src="celular-mes-escuro.png" width="240" alt="Fixos do mês no celular, modo escuro">
+  <img src="celular-variados-escuro.png" width="240" alt="Gastos variados no celular">
+  <img src="celular-contas-escuro.png" width="240" alt="Saldo por banco no celular">
+</p>
+
+<img src="desktop-mes-claro.png" alt="Visão do mês no computador, modo claro">
 
 ## Sobre o projeto
 
-O Financial Scoreboard nasceu de um caso real: um controle financeiro feito para um cliente que queria parar de anotar tudo em papel e acompanhar o mês pelo celular. A ideia central é simples: o que é fixo já vem provisionado, o que é variado se anota na hora, e o app mostra quanto vai sobrar no fim do mês antes de o mês acabar.
+O Placar nasceu de um caso real: um controle financeiro feito para um cliente que queria parar de anotar tudo em papel e acompanhar o mês pelo celular. A ideia central é simples: o que é fixo já vem provisionado, o que é variado se anota na hora, e o app mostra quanto vai sobrar no fim do mês antes de o mês acabar.
 
-Todos os valores, nomes e bancos deste repositório são fictícios, para não expor os dados reais do cliente.
+Todos os valores, nomes e bancos deste repositório são fictícios.
 
 ## O que ele faz
 
@@ -37,18 +46,16 @@ Baixe o repositório e abra o `index.html` no navegador. Não precisa instalar n
 
 ## Usar com seus próprios dados na nuvem
 
-O passo a passo para ligar ao Firebase e publicar com domínio próprio está em [`docs/guia-firebase.md`](docs/guia-firebase.md). As regras de segurança do banco estão em [`firebase/firestore.rules`](firebase/firestore.rules).
+O passo a passo para ligar ao Firebase e publicar com domínio próprio está em [`guia-firebase.md`](guia-firebase.md). As regras de segurança do banco estão em [`firestore.rules`](firestore.rules).
 
 ## Estrutura
 
 ```
-placar-financeiro/
-├── index.html              o app inteiro
-├── docs/
-│   ├── guia-firebase.md    como colocar no ar com login e nuvem
-│   └── screenshots/        imagens deste README
-├── firebase/
-│   └── firestore.rules     regras de segurança do banco
+Financial-Scoreboard/
+├── index.html           o app inteiro
+├── guia-firebase.md     como colocar no ar com login e nuvem
+├── firestore.rules      regras de segurança do banco
+├── *.png                imagens deste README
 └── LICENSE
 ```
 
